@@ -2,7 +2,9 @@
 
 ## **Resumen Ejecutivo**
 
-Desarrollo de aplicación móvil híbrida para gestión de colección de relojes utilizando **Ionic + React + Tailwind CSS**. La aplicación permitirá a los usuarios gestionar su colección personal con funciones de autenticación, visualización, búsqueda y registro de relojes.
+Propuesta para el desarrollo de una aplicación móvil híbrida profesional para la gestión de colecciones de relojes. La solución utilizará tecnologías modernas (**Ionic + React + Tailwind CSS**) para crear una experiencia de usuario excepcional que permita a los coleccionistas organizar, catalogar y gestionar sus relojes de manera eficiente.
+
+La aplicación incluirá un sistema completo de autenticación, visualización intuitiva de la colección, herramientas de búsqueda avanzada, y funciones de análisis para obtener insights valiosos sobre la colección.
 
 ---
 
@@ -10,54 +12,71 @@ Desarrollo de aplicación móvil híbrida para gestión de colección de relojes
 
 ### **🎯 Alcance del MVP**
 
-#### **1. Sistema de Autenticación (25 horas)**
-- Registro e inicio de sesión con email/contraseña
-- Integración con Google OAuth
-- Integración con Apple OAuth
-- Gestión de estado de usuario
-- Recuperación de contraseña
+El MVP (Producto Mínimo Viable) incluye las funcionalidades esenciales para que los usuarios puedan comenzar a gestionar su colección de relojes de inmediato, proporcionando una base sólida para futuras expansiones.
 
-#### **2. Página de Colección (35 horas)**
-- Visualización de lista de relojes en formato grid/lista
-- Tarjetas de reloj con información básica (imagen, nombre, marca, año)
-- Búsqueda simple por nombre/marca
-- Botón para alternar entre vista grid y lista
-- Estados vacíos informativos
+#### **1. Sistema de Autenticación Completo (25 horas)**
+- Registro e inicio de sesión seguro con email/contraseña
+- Integración con Google OAuth para acceso rápido
+- Integración con Apple OAuth para usuarios iOS
+- Gestión profesional de estado de usuario y sesiones
+- Sistema de recuperación de contraseña
+- Validación y seguridad de datos
 
-#### **3. Funcionalidad Agregar Reloj (40 horas)**
-**Formulario simplificado en una sola página:**
-- Nombre del reloj (obligatorio)
-- Marca (lista desplegable)
-- Año (entrada numérica)
-- Subida de imagen única
-- Condición (lista desplegable)
-- Material básico (lista desplegable)
-- Tipo de movimiento (lista desplegable)
-- Notas adicionales (área de texto)
+#### **2. Gestión de Colección Intuitiva (35 horas)**
+- Visualización elegante de relojes en formato grid y lista adaptable
+- Tarjetas de reloj profesionales con imagen, nombre, marca y año
+- Sistema de búsqueda rápida por nombre y marca
+- Alternador fluido entre vista grid y lista según preferencia
+- Estados vacíos informativos con guías para nuevos usuarios
+- Diseño responsive optimizado para diferentes tamaños de pantalla
 
-#### **4. Infraestructura Base (25 horas)**
-- Configuración del proyecto Ionic + React
-- Sistema de navegación y rutas
-- Gestión de estado básica
-- Integración con API backend
-- Sistema de subida de archivos
-- Manejo básico de errores
+#### **3. Sistema de Registro de Relojes (40 horas)**
+**Formulario intuitivo y completo para catalogar relojes:**
+- Nombre del reloj (campo obligatorio con validación)
+- Selección de marca mediante lista desplegable organizada
+- Año de fabricación con entrada numérica validada
+- Sistema de subida de imágenes con vista previa
+- Selector de condición del reloj (multiple opciones)
+- Clasificación de material mediante opciones predefinidas
+- Categorización de tipo de movimiento
+- Campo de notas adicionales para información personalizada
+- Validación completa de formularios y manejo de errores
+
+#### **4. Arquitectura y Infraestructura Profesional (25 horas)**
+- Configuración completa del proyecto con Ionic + React + TypeScript
+- Sistema de navegación optimizado y rutas protegidas
+- Gestión de estado global eficiente y escalable
+- Integración robusta con API backend
+- Sistema seguro de subida y gestión de archivos
+- Manejo comprehensivo de errores y casos extremos
+- Optimización de rendimiento y experiencia de usuario
+- Configuración de entorno de desarrollo y producción
 
 ### **💰 Inversión MVP**
-- **Horas totales**: 125 horas
-- **Precio**: **$3,000 USD**
-- **Duración**: 3.5 semanas (6 horas/día)
+- **Desarrollo**: 125 horas de trabajo especializado
+- **Inversión total**: **$3,000 USD**
+- **Cronograma**: 3.5 semanas (dedicación de 6 horas diarias)
+- **Entrega**: Aplicación funcional lista para uso en Android
 
-### **📅 Cronograma MVP**
+### **📅 Cronograma Detallado MVP**
 ```
-Semana 1-2: Sistema de autenticación + Lista básica de colección
-Semana 3: Funcionalidad completa de agregar reloj
-Semana 3.5: Pruebas, optimización y entrega
+📍 Semanas 1-2: Fundación del Sistema
+   • Sistema de autenticación completo y seguro
+   • Interfaz básica de colección con navegación
+
+📍 Semana 3: Funcionalidad Principal
+   • Sistema completo de registro de relojes
+   • Integración con backend y almacenamiento
+
+📍 Semana 3.5: Finalización y Entrega
+   • Pruebas exhaustivas en dispositivos reales
+   • Optimización de rendimiento y pulido final
+   • Entrega de aplicación compilada para Android
 ```
 
 ### **📱 Plataforma MVP**
 - **Android**: Aplicación compilada y lista para instalación
-- iOS se puede agregar en Fase 2 con servicios de compilación en la nube
+- **iOS**: Disponible en Fase 2 (requiere análisis de opciones de compilación)
 
 ---
 
@@ -137,7 +156,7 @@ Semana 3.5: Pruebas, optimización y entrega
 
 ### **Plataformas**
 - **Incluido**: Android (Aplicación compilada)
-- **Opcional**: iOS (requiere servicios de compilación en la nube +$200)
+- **Opcional**: iOS (a cotizar por separado)
 
 ### **Entregables**
 - Código fuente completo
