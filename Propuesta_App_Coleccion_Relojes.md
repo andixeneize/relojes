@@ -42,7 +42,7 @@ El MVP (Producto Mínimo Viable) incluye las funcionalidades esenciales para que
 - Campo de notas adicionales para información personalizada
 - Validación completa de formularios y manejo de errores
 
-#### **4. Arquitectura y Infraestructura Profesional (25 horas)**
+#### **4. Arquitectura y Infraestructura (25 horas)**
 - Configuración completa del proyecto con Ionic + React + TypeScript
 - Sistema de navegación optimizado y rutas protegidas
 - Gestión de estado global eficiente y escalable
@@ -60,7 +60,7 @@ El MVP (Producto Mínimo Viable) incluye las funcionalidades esenciales para que
 
 ### **📅 Cronograma Detallado MVP**
 ```
-📍 Semanas 1-2: Fundación del Sistema
+📍 Semanas 1-2: Sistema Base y autenticación
    • Sistema de autenticación completo y seguro
    • Interfaz básica de colección con navegación
 
